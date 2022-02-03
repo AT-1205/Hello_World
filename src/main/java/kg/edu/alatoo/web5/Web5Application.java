@@ -14,8 +14,4 @@ public class Web5Application {
 		SpringApplication.run(Web5Application.class, args);
 	}
 
-	@GetMapping("/")
-	public String index() {
-		return "<h1>Hello Aruuk!</h1>";
-	}
 }
