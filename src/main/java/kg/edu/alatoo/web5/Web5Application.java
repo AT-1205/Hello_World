@@ -16,6 +16,6 @@ public class Web5Application {
 
 	@GetMapping("/")
 	public String index() {
-		return "<h1>Hello Aruuke!</h1>";
+		return "<h1>Hello Aruuk!</h1>";
 	}
 }
